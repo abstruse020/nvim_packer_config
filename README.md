@@ -1,6 +1,6 @@
 # Description
 
-My nvim config is inspired from [ThePrimeagen's nvim config](https://github.com/ThePrimeagen/ThePrimeagen).
+My nvim config (Inspired from [ThePrimeagen's nvim config](https://github.com/ThePrimeagen/ThePrimeagen))
 
 - The main files are in `lua/abstruse_nvim`.
 - `init.lua` is configured so that it don't apply the configuration if using neovim via VS code.
@@ -25,4 +25,4 @@ The `use(....)` you can get from github page of that specific package.
 
 - LSP zero is not working, I have not debuged it properly but looks like some problem related to `mason`. 
 
-- For latex you need to install TexLive first, then install tree-sitter-cli and zathura (pdf viewer, just install using apt). [Good repo for commands](https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/)
+- For latex you need to install TexLive first, then install tree-sitter-cli and zathura (pdf viewer, installed using apt). [Good repo for commands](https://jdhao.github.io/2019/03/26/nvim_latex_write_preview/)
