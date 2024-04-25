@@ -6,5 +6,6 @@ if vim.g.vscode then
 else
 	-- ordinary Neovim
 	print("Neovim extension")
-	require("abstruse_nvim")
+	-- require("abstruse_nvim")
+	require("abstruse_lazy")
 end
